@@ -39,9 +39,15 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const ICON_MAP: IconMap = {
   Website: 'lucide:globe',
-  GitHub: 'lucide:github',
-  LinkedIn: 'lucide:linkedin',
-  Twitter: 'lucide:twitter',
   Email: 'lucide:mail',
-  RSS: 'lucide:rss',
+  GitHub: 'simple-icons:github',
+  RSS: 'simple-icons:rss',
+  Bluesky: 'simple-icons:bluesky',
+  itchdotio: 'simple-icons:itchdotio',
+  YouTube: 'simple-icons:youtube',
+  Unreal: 'simple-icons:unrealengine',
+  Blender: 'simple-icons:blender',
+  Bevy: 'simple-icons:bevy',
+  Patreon: 'simple-icons:patreon',
+  Rust: 'simple-icons:rust',
 }
