@@ -21,10 +21,10 @@ import { Icon } from 'astro-icon/components'
     if (['dark', 'light'].includes(localStorageTheme)) {
       return localStorageTheme
     }
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark'
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+      return 'light'
     }
-    return 'light'
+    return 'dark'
   })()
 
   if (theme === 'light') {
