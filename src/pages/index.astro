@@ -12,27 +12,6 @@ const blog = await getRecentPosts(SITE.featuredPostCount)
 
 <Layout>
   <PageHead slot="head" title="Home" />
-  <section>
-    <div class="border">
-      <div class="flex flex-col space-y-1.5 p-6">
-        <!-- <h3 class="text-3xl leading-none font-medium">er·u·dite</h3>
-        <p class="text-muted-foreground text-sm">
-          /ˈer(y)əˌdīt/ &bull; <span class="font-medium">adjective</span>
-        </p> -->
-        Experimental open source games and tools
-      </div>
-      <div class="p-6 pt-0">
-        <p class="text-muted-foreground mb-2 text-sm">
-          Welcome to the 4loup development blog.
-        </p>
-        <p class="text-muted-foreground text-sm">
-          Follow along as we make games and frameworks in Rust, Bevy, Blender,
-          Godot, and Unreal. Expect posts about math, graphics, algorithms, and
-          game design.
-        </p>
-      </div>
-    </div>
-  </section>
   <section class="flex flex-col gap-y-4">
     <h2 class="text-2xl font-medium">Latest posts</h2>
     <ul class="flex flex-col gap-y-4">

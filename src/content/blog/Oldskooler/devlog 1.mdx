@@ -1,0 +1,48 @@
+---
+title: 'The New Oldskooler'
+description: 'The past is now.'
+date: 2025-04-24
+tags:
+    - 'Oldskooler'
+    - 'devlog'
+# image: './2024.png'
+---
+
+Oldskooler was the first product I sold back in the mid 2010s. It was a project to teach myself a workflow for making Unreal Engine 4 assets, and consisted of simple effects like pixelization and vertex lighting. I've been surprised and delighted by how long people have cared about it for despite me disappearing from the internet. I announced a fully new version a few times that kept getting delayed because of health and life problems. But I promised updates and I hate breaking promises, so it's coming for real for real now.
+
+It's quite a different product from last time:
+
+## It's free and open source now
+
+MIT License specifically. Basically that means you can do whatever you want with it, commercial or non-commercial, so long as you include a notice that Oldskooler is © 4loup.
+
+## It's multiplatform now
+
+The current plan is for you to be able to use Oldskooler with:
+- Unreal Engine 5
+- Unity
+- Godot
+- Blender
+- Bevy
+
+There may not be strict feature parity for each version (for example because Godot already has vertex lighting built in) but I want to make the differences as slight as possible. This list may grow as the project does.
+
+Every part that can be made into a platform-agnostic shader or library will be, and anything that can't will be made as an asset pack for the target platform's native material system. I have a strategy in mind for minimizing duplication between all these target engines, and I'll write a post about that soon.
+
+I'm planning to fund development by releasing paid versions on various marketplaces, such as Fab (the Unreal one) and Superhive (the Blender one). The paid versions will have the same functionality, and are effectively a donation in exchange for the convenience of downloading it through a platform's interface and launcher, and under that marketplace's license. Each platform-specific version will still be available on GitHub under an MIT License, but you'll need to download and install it yourself. Previous Unreal marketplace customers will receive the new Fab equivalent for free.
+
+## It's got way way more stuff in it
+
+The last version was a toy by comparison. Aside from all the classics you'd expect from a retro effects pack like vertex boiling or affine distortion, I'm planning to make Oldskooler a growing library of procedural assets, recreating classic effects like that one cell noise lava texture, or the Windows NT screensavers, or Earthbound-style abstract backgrounds, or "fireblu", or really anything else that pops into my head (requests welcome!).
+
+I'm also planning on making a few especially high effort versions of classic effects which are built for modern hardware. For example I want to build a suite of generation tools and shaders for animated sprite impostors that are capable of recreating the Doom 6-way sprite look, but which also scale up to arbitrary levels of PBR-enabled detail. I could see this being used as a performance saver for background elements like high def foliage, or for experimental modern-retro aesthetics.
+
+## It's going to be developed in the open
+
+Stay tuned for more posts on this blog. I plan on talking through the development process of everything I make now, and want this site to double as a learning resource for technical artists or anyone interested in game dev.
+
+I'm taking a big risk on this by effectively giving my work away, but I believe in game developers having good open source tools, and my customers so far have been really consistent about tipping me and supporting my Patreon, so I'm putting my trust in your generosity. Please keep in mind that I'm one person and I'm a bit too disabled to hold down a regular job, so your support is directly keeping me housed and fed.
+
+Consider this post to be devlog \#1! Subscribe with your favourite RSS reader to get notified about the next one. No ETA yet on the 1.0 version, but everything is available on the GitHub repo as it's being worked on.
+
+It's good to finally be back.
